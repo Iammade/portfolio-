@@ -429,6 +429,41 @@ nav .fa-solid {
     footer{
         font-size: 14px;
     }
+    .work3{
+        width: 100%;
+        height: 280px; 
+    }
+    .work img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        display: block;
+        transition: transform 0.5s;
+    }
+    .btn{
+        margin-top: 50px;
+    }
+    .layer{
+        width: 100%;
+        height: 0;
+        background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+        border-radius: 10px;
+        position: absolute;
+        left:0;
+        top: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
+        font-size: 14px;
+        transition: height 0.5s;
+    }
+    .work:hover .layer{
+        height: 100%;
+    }
 }
 
 #msg{
