@@ -359,7 +359,7 @@ nav .fa-solid {
 
 @media only screen and (max-width : 600px) {
     #header{
-        background-image: url(im.jpg);
+        background-image: url(image1.jpg);
         background-position: center; 
         background-size:cover;
 
